@@ -1,0 +1,986 @@
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+
+  .single_open_appliacation-col
+  {
+    /*  max-width: 355px;*/
+    /*    margin: 5px;*/
+
+  }
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+  .single_open_appliacation-col
+  {
+    min-width:445px;
+    font-size: 1.07em;
+  }
+}
+
+/*==========  Non-Mobile First Method  ==========*/
+@media only screen and (max-width : 1400px) {
+
+
+
+.select-category-shape {
+
+    max-width: 700px;
+}
+
+}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+  .newapplication_headtitle i {
+    margin-right: 15px;
+    vertical-align: middle;
+}
+  #dashboard-menu {
+      height: auto;
+      background: #fdfdfd;
+  }
+
+.arrow_transform
+{transition: 0.4s;
+transform: rotate(0deg);
+}
+
+.offer-seller-actions-shape
+{
+  background: #fdfdfd;
+}
+
+#application_summary  .active .arrow_transform
+{
+transform: rotate(180deg);
+}
+
+#application_summary .application-summary-transform
+{
+  display:none;
+}
+
+#application_summary .application-summary-transform.show
+{
+  display:block;
+}
+
+#application_summary .offer-section-title.blue-bg.active
+{
+    background-color:#009bd6;
+    color:#fff;
+}
+
+#application_summary .offer-section-title
+{
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+
+#application_summary .offer-section-title.blue-bg
+{
+background: #fff;
+color:#333;
+}
+
+
+
+
+
+.select-category-transform
+{
+  margin-bottom: 20px;
+}
+
+  #application_filters {
+
+    position: fixed;
+    left:-400px;
+    z-index: 10;
+    box-shadow: 1px 2px 6px -4px #232323;
+    -webkit-box-shadow: 1px 2px 6px -4px #232323;
+    -moz-box-shadow: 1px 2px 6px -4px #232323;
+
+    padding: 15px;
+
+    padding-top: 30px;
+
+    top: 0px;
+
+z-index: 500000;
+  }
+
+  .clear_filters-transform {
+
+    position: relative;
+    left: 0px;
+    top: 0px;
+    margin-top:20px;
+
+  }
+
+  .clear_filters-shape {
+
+    padding: 0px 0px 0px 0px;
+
+  }
+
+  #application_filters .close_preview
+  {
+  padding:0px 20px 0px 0px;
+  }
+
+  .select-category-input-shape.shadow
+  {
+
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+
+  }
+
+
+
+  .left-new-application-col {
+
+
+    padding-right: 5px;
+
+  }
+
+  #pagination {
+
+    position: absolute;
+    top: -7px;
+    right: 10px;
+
+  }
+  .left-new-application-col {
+    max-width: 100%;
+  }
+
+  .content_padding {
+
+    padding-top: 20px !important;
+
+  }
+
+  #dashboard-main-col {
+
+
+    padding-right: 15px;
+
+  }
+
+
+}
+
+@media only screen and (max-width : 1030px) {
+  .info-title-shape
+  {
+    font-size:0.9em;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+  .editor-toggle-shape
+  {
+    display: none;
+  }
+
+  #comment-reply {
+
+    /* margin-bottom: 40px; */
+    padding: 10px;
+
+}
+
+  .single-selection-title-transform
+  {
+
+  }
+
+  #offer_calculator
+  {
+
+      height: auto;
+  }
+
+
+  #comment_editor {
+    position: relative;
+    bottom: 0px !important;
+    margin-top:20px;
+  }
+
+  #offer-chat-main
+  {
+    display:none;
+  }
+
+  #comments_area
+  {
+    position: relative;
+    z-index:11;
+  }
+
+  #comments_area  .active .arrow_transform
+  {
+  transform: rotate(180deg);
+  }
+
+  #comments_area .application-summary-transform
+  {
+    display:none;
+  }
+
+  #comments_area   #offer-chat-main.show
+  {
+    display:block;
+  }
+
+  #comment_editor
+  {
+    display:none;
+  }
+
+    #comment_editor.show
+    {
+      display: block;
+    }
+
+  #comments_area .offer-section-title.white4-bg.active
+  {
+      background-color:#009bd6;
+      color:#fff;
+  }
+
+  #comments_area .offer-section-title
+  {
+    cursor: pointer;
+    transition: 0.5s;
+  }
+
+
+  #comments_area .offer-section-title.white4-bg
+  {
+  background: #fff;
+  color:#333;
+  border-top:solid 1px #f4f4f4;
+  }
+
+
+
+
+
+
+  .selection-list-transform .right
+  {
+    float:none;
+  }
+
+  #date-range .input-set-transform {
+
+    display: block;
+    width: 100%;
+
+  }
+
+  .price_range_input .input_label-shape
+  {
+    width:50px;
+  }
+
+  .price_range_input
+  {
+    margin-bottom:5px;
+  }
+  .price_range_input .counter-tool-button-transform {
+
+    margin-left: 0px;
+    margin-right: 0px;
+
+  }
+
+  .sellers-rating-transform {
+    float: left;
+    margin-top:30px;
+  }
+
+
+  .seller-seller-shape
+  {
+    font-size:0.8em;
+  }
+
+  .menu_logo-shape {
+    padding-top: 10px;
+    padding-left: 15px;
+  }
+
+  #dashboard-main-col
+  {
+    padding-left:15px;
+    padding-right:15px;
+  }
+
+
+  .single-message-shape  .horizontal-bar-cols
+  {
+    margin:7px;
+  }
+
+  .menu_logo-transform {
+    display: inline-block;
+    margin-left: 0px;
+  }
+
+  #dashboard_main_area {
+    padding: 0px 0px;;
+  }
+
+  #dashboard-main-col {
+    padding: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-left: 0px;
+  }
+
+  .content_padding {
+    padding-top: 20px !important;
+  }
+
+  #blue_bar {
+
+    padding: 0px;
+    float: right;
+    position: relative;
+    top: -55px;
+  }
+
+  .menu-shape {
+    padding: 0px ;
+  }
+
+
+  .dashboard-menu-small-shape
+  {
+    border-bottom: solid 1px #f4f4f4;
+    margin: 0px;
+  }
+
+  .offer-main-row-title {
+    width: 90px;
+    padding: 0px 15px;
+  }
+
+  .offer_box_summary.right
+  {
+    /*  float:left;*/
+    margin-left:15px;
+  }
+
+  .single-open_application_list-shape {
+    /*  width: 360px;*/
+    margin: 2px;
+  }
+
+  .open_application_list_main-transform
+  {
+    /*  display: inline-block;*/
+  }
+
+  .open_application_list_main-shape
+  {
+
+  }
+  .single-open_application_list-transform {
+
+    /*    display: inline-block;*/
+  }
+
+  .offer_box_summary
+  {
+    /*  width:320px;*/
+  }
+  .open_application_list-options_button-transform  {
+    /*    position: absolute;
+    right: 0px;*/
+  }
+
+  .offer-total-transform {
+    border-left: none;
+    padding-left: 0px;
+  }
+
+  .application-offer-transform{
+    width:100%;
+  }
+
+  .application-offer-transform {
+    width:100%;
+  }
+
+  #application-navigation-container
+  {
+    font-size:1.25em
+  }
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+
+
+  #offer_summary-col
+  {
+    position: fixed;
+
+  right: -900px;
+
+  z-index: 1000000;
+
+  background: rgba(0,0,0,0.5);
+
+  width: 100%;
+
+  top: 0px;
+  height:100vh;
+  overflow: auto;
+  }
+
+#preview_inquiry
+  {/*float:right;*/
+    width:100%;
+  /*  max-width: 420px;*/
+
+    box-shadow: -2px 1px 7px -5px #000;
+  }
+
+  .messages-options_button-transform {
+
+    margin: 0px;
+
+
+  }
+  .application-offer-shape .horizontal-bar-cols {
+
+    margin: 12px 5px;
+    margin: 0px;
+    display: block;
+
+  }
+
+  .offer-main-row {
+    display:inline-block;
+
+  }
+
+  .offer-total-transform .application-offer-info-shape {
+
+
+    text-align: right;
+    margin: 10px 0px;
+
+  }
+
+  .offer-list-seller-name {
+
+    position: relative;
+  }
+
+  .horizontal-bar-cols {
+
+
+    text-align: center;
+
+  }
+
+  .offer-list-seller-name-shape
+  {
+    border-top: none;
+  }
+
+  .offer-total-title , .offer-total-price
+  {
+    display: inline-block;
+  }
+
+  #dashboard-main-col {
+
+
+    padding-right: 0px;
+
+  }
+
+  .menu_logo-shape {
+    padding-top: 0px;
+    padding-left: 0px;
+  }
+
+  .menu_logo_img-shape {
+    width: 80px;
+    margin-left: 7px;
+  }
+
+
+  .active .single-filter-shape {
+    box-shadow: none;
+    -webkit-box-shadow:none;
+    -moz-box-shadow: none;
+    background: transparent;
+  }
+
+  .sellers-description {
+
+    padding: 0px 15px;
+  }
+
+  .seller-seller-shape
+  {
+    font-size:0.7em;
+  }
+
+  .single-searchbox-transform {
+    display: block;
+  }
+
+  .services_search
+  {
+
+    border-left:none;
+    border-right:none;
+    border-top:solid 1px #f4f4f4;
+    border-bottom:solid 1px #f4f4f4;
+
+
+
+  }
+
+  .menu_burger-transform {
+
+    float: right;
+  }
+
+  .info-title-shape
+  {
+    font-size:1.1em;
+  }
+
+  .open_application_list-options_button-transform
+  {
+    /*  position:absolute;
+    right:40px;*/
+  }
+
+
+
+  .single_open_appliacation-col
+  {
+    padding:0px;
+  }
+
+  .filters_shape
+  {
+    text-align: left !important;
+    /*  position: absolute;*/
+    z-index: 10;
+    float:left;
+  }
+
+  .single-filter-transform
+  {
+    display: none;
+  }
+
+  .single-filter-transform.active, .single-filter-transform.title
+  {
+    display:inline-block;
+  }
+
+
+  .main_site
+  {
+    padding-top:200px;
+  }
+
+  .counter-tool-input-shape input[type="text"], .price-tool-input-shape input[type="text"], .price-tool-input-shape input[type="number"], .counter-tool-input-shape input[type="number"] {
+
+
+    width: 100%;
+
+  }
+
+  #sendOffer  .counter-tool-input-shape input[type="number"] {
+    width: 90%;
+}
+}
+
+@media only screen and (max-width : 650px) {
+
+  #comment-reply {
+
+    /* margin-bottom: 40px; */
+    padding: 5px;
+
+}
+
+
+  .single-chat-box-avatar-shape {
+      width: 30px;
+      height: 30px;
+      overflow: hidden;
+  }
+  .left .chat-box-details {
+    padding: 5px 5px 5px 30px;
+}
+
+.chat-box-details-top-transform {
+    margin-bottom: 5px;
+}
+
+.single-chat-box-transform {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+  .hidden-xs-sm
+  {
+    display: none;
+  }
+
+  #filters
+  {
+    /*  padding-bottom:0px;*/
+  }
+
+  .single-filter-transform
+  {
+    margin:0px;
+  }
+
+
+  .offers-row-options .options-wrapper {
+    min-width: 300px;
+
+  }
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 550px) {
+
+
+  .application-offer-shape {
+    /* border-top: solid 3px; */
+    /* border-left: solid 1px #f4f4f4; */
+    position:inherit;
+  }
+
+
+  .offer-main-row
+  {
+    width:45%;
+  }
+
+  .price-cell.left {
+    float:right;
+  }
+
+  .open_application_list-options_button-transform .action_button
+  {
+    /*  position: absolute;
+    top: 20px;
+    right: 20px;*/
+  }
+
+  .offer_box_summary
+  {
+    width:100%;
+    padding:0px 20px 0px 20px;
+    margin:0px
+  }
+
+  .offer-main-transform
+  {
+    text-align: left;
+  }
+
+  .horizontal-bar-cols {
+
+    margin-bottom: 0px;
+
+  }
+
+  .offer-total-transform{
+    position: absolute;
+    right: 20px;
+    top: 14px;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+  .selection-list-shape {
+
+
+    padding:20px 5px;
+
+}
+
+  .main_message {
+
+    border-bottom: solid 2px;
+    padding: 0px;
+
+  }
+
+  .single-message-shape .horizontal-bar-cols {
+
+    margin: 7px;
+    display: block;
+    text-align: left;
+
+  }
+
+  .messages-options_button-transform {
+
+    margin: 0px;
+
+
+  }
+
+
+
+
+  .certificate-shape {
+    width: 90px;
+  }
+
+  .certificate-transform {
+    position: fixed;
+    right: 0px;
+    bottom: 20px;
+    z-index: 10;
+  }
+
+  .open_application_list_main-tools-transform {
+
+    margin-bottom: 0px;
+  }
+
+  .sellers-description {
+
+    padding: 0px 5px;
+  }
+
+  .open-applications-shape .header_info, .closed-applications-shape .header_info {
+    font-size: 3.4em;
+
+  }
+
+  .chat-image-shape {
+    width: 20px;
+  }
+  .single_seller-col {
+    /*  width: 290px;*/
+    font-size: 0.85em;
+    padding: 0px;
+    min-width: 290px;
+  }
+
+  .ratio-info
+  {
+    font-size:2.5em;
+  }
+
+  .offers-row-options .options-wrapper {
+    min-width: auto;
+
+  }
+
+
+  .open_application_list-info-shape
+  {
+    max-width:60px;
+  }
+
+  .open_application_list-sender-shape
+  {
+    /*  margin-right:60px;*/
+  }
+
+  .options-box-transform .option-cell-transform {
+
+    /*  padding: 10px 12px;*/
+
+  }
+
+  .application-offer-info-shape
+  {
+    /*font-size:1em;*/
+  }
+
+  .application-offer-shape
+  {
+    /*  text-align: left;
+    padding:0px 10px;*/
+  }
+
+  .application-offer-shape .horizontal-bar-cols {
+    /*  margin:5px;
+    margin-bottom: 0px;
+    margin-top:8px;
+    */
+  }
+
+  .offer-total-transform
+  {
+    /*  margin-left:20px !important;*/
+  }
+
+  .offer_box_summary
+  {
+    width:100%;
+  }
+
+
+
+}
+
+@media only screen and (max-width : 420px) {
+
+  #application_summary .offer-section-title, #offer_calculator .offer-section-title, .left-new-application-col .offer-section-title {
+    padding: 15px 5px 15px 8px;
+    font-size: 1.13em;
+}
+
+.menu-small-list-transform {
+    width: 80%;
+}
+.single-dashboard-menu-shape {
+    padding: 0px 0px 15px 0px;
+
+    /* border-bottom: solid 1px #f4f4f4; */
+}
+
+.active .small-list-wrapper {
+  padding:5px 20px;
+}
+
+
+  .totalOffers-transform {
+
+    padding: 15px 9px;
+    border-right: solid 1px #f1f1f1;
+
+}
+  .price-cell.left {
+
+    float: none;
+    text-align: left;
+    margin-left: 15px;
+
+  }
+
+}
+
+@media only screen and (max-width : 380px) {
+
+  .sellers-description {
+
+    padding: 0px 0px;
+  }
+
+  .left-new-application-col
+  {
+    padding-left:0px;
+  }
+
+  .left-new-application-col
+  {
+    padding-right:0px;
+  }
+
+  .right-new-application-col
+  {
+    padding-left:15px;
+  }
+
+  #filters{
+    padding-bottom: 0px;
+  }
+
+  .single_open_appliacation-col
+  {
+    min-width:auto;
+    width:100%;
+    font-size:0.95em;
+  }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+  #dashboard-main-col
+  {
+    padding-left:6px;
+    padding-right:6px;
+  }
+
+  .chat-image-shape {
+    width: 20px;
+  }
+
+  .open-applications-shape .header_info, .closed-applications-shape .header_info {
+    font-size: 2.7em;
+  }
+
+  .single_open_appliacation-col
+  {
+    /*min-width:280px;*/
+    font-size:0.95em;
+  }
+
+  .option-button-shape {
+    /*  width: 20px;*/
+  }
+
+  .option-button-title {
+    font-size: 0.86em;
+    letter-spacing: 0.18px;
+  }
+
+  .options-box-transform .option-cell-transform {
+
+    /*  padding-top: 34px;*/
+  }
+}

@@ -1,0 +1,253 @@
+<div class="application-summary-transform parentCat_2742 preview_inquiry" id="preview_inquiry">
+
+  <div class="application-summary-shape blue shadow white-bg">
+
+    <div class="menu_logo_img-transform hidden_logo">
+      <div class="menu_logo_img-shape">
+        <img src="http://pricebook.gr/pricebook/wp-content/themes/wp-bootstrap-starter/images/theme0/logo.svg">
+
+      </div>
+
+
+    </div>
+
+    <div class="close_preview right pointer">
+      <i class="material-icons">close</i>
+    </div>
+
+
+
+
+
+    <div class="summary">
+
+
+
+      <div class="summary-subtitle bold blue-bg white">
+          @overtitle
+         @inquiry_product_category
+
+      </div>
+
+
+      <div class="summary_general summary-prices  grey ">
+
+
+        <div class="col-xs-4 white4-bg ">
+            <div class=" price-qty inline-block  blue summary-quantity-container"> Ποσότητα <br/>  <span class="summary-quantity ">@inquiry_product_quantities</span></div>
+        </div>
+
+        <div class="col-xs-8 white3-bg  @no_range_hidden">
+            <div class="  inline-block  red no_range_text bold">  Δεν επιθυμώ συγκεκριμένο έυρος τιμών</div>
+
+        </div>
+
+          <div class="col-xs-4 white3-bg @range_hidden">
+              <div class=" price-from inline-block  blue summary-price">Τιμή Απο <br/><span class="bold">@inquiry_min_price</span> &euro;</div>
+          </div>
+          <div class="col-xs-4 white2-bg @range_hidden" >
+            <div class=" price-to inline-block  blue summary-price">Τιμή Έως <br/><span class="bold">@inquiry_max_price</span> &euro;</div>
+          </div>
+          <div class="clearer">
+          </div>
+
+      </div>
+
+      <div class="summary_general summary-additional-info  _white-bg grey">
+
+
+
+        <div class="summary-filters-transform @texthidden">
+            <div class="summary-filters-shape">
+      <div class="filter-category-transform ">
+        <div class="filter-category-shape ">
+        <div class="filter-category-title-shape  bold ">Περιοχή</h4>
+        </div>
+        <div class="filter-single-shape inline-block">@inquiry_areas</div>
+          <div class="longlat_data hidden">@inquiry_longlat</div>
+        </div>
+
+      </div>
+
+  </div>
+
+
+  <div class=" summary-places">
+    <div id="map_box">
+
+    </div>
+  </div>
+
+  </div>
+
+
+
+        <div class="summary-filters-transform @texthidden">
+            <div class="summary-filters-shape">
+              <div class="filter-category-transform ">
+                <div class="filter-category-shape ">
+                <div class="filter-category-title-shape  bold ">Πληροφορίες</h4>
+              </div>
+                <div class="filter-single-shape inline-block">@inquiry_text</div>
+
+                </div>
+
+              </div>
+        </div>
+      </div>
+
+        <div class="summary-filters-transform @filterhidden">
+          <div class="summary-filters-shape">
+
+      @inquiry_filters
+      </div>
+      </div>
+
+
+
+      <div class="summary-filters-transform services-entry">
+          <div class="summary-filters-shape">
+            <div class="filter-category-transform ">
+              <div class="filter-category-shape ">
+              <div class="filter-category-title-shape  bold ">Διαθεσημότητα</h4>
+            </div>
+              <div class="filter-single-shape inline-block  @inquiry_service_range_date_hide">@inquiry_service_start_dates</div>
+              <div class="filter-single-shape inline-block  @inquiry_service_end_date_hide">@inquiry_service_start_dates - @inquiry_service_end_date</div>
+              </div>
+
+            </div>
+      </div>
+      </div>
+
+
+
+
+
+
+
+      </div>
+
+
+
+
+
+
+
+      <div class="summary_general summary-staydates  hotel-entry blue white2-bg">
+
+
+        <h4><i class="material-icons blue inline-block middle">date_range</i>Ημερομηνίες</h4>
+        <div class="clearer">
+
+        </div>
+          <div class="col-xs-6 white2-bg ">
+              <div class=" stay-from inline-block blue summary-price"> Απο <br/>
+
+            <span class="bold">@inquiry_hotel_start_date</span></div>
+          </div>
+          <div class="col-xs-6  white2-bg ">
+            <div class=" stay-to inline-block blue  summary-price"> Έως <br/>
+
+            <span class="bold">@inquiry_hotel_end_date</span></div>
+          </div>
+          <div class="clearer">
+          </div>
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+      
+
+      <div class="summary-hotel-people hotel-entry ">
+        <div class="summary_general summary-persons blue col-xs-12 col-sm-6">
+
+          <div class=" summary-adults inline-block ">
+            <i class="material-icons blue inline-block middle">face</i>
+            Ενήλικες: <span class="bold">@inquiry_persons_quantities</span></div>
+        </div>
+
+        <div class="summary_general summary-children col-xs-12 col-sm-6">
+
+          <div class=" summary-kids inline-block ">
+            <i class="material-icons blue inline-block middle">child_friendly</i>
+             Ανήλικοι : <span class="bold">@inquiry_children_quantities</span></div>
+        </div>
+        <div class="clearer">
+
+        </div>
+      </div>
+
+
+      <div class="hotel-entry">
+        <div class="summary_general summary-rooms blue  col-xs-12 col-sm-6">
+
+          <div class=" summary-single inline-block ">
+            <i class="material-icons blue inline-block middle">accessibility</i>
+            Mονόκλινα: <span class="bold">@inquiry_single_rooms_quantities</span></div>
+        </div>
+
+        <div class="summary_general summary-rooms blue  col-xs-12 col-sm-6">
+
+          <div class=" summary-double inline-block ">
+            <i class="material-icons blue inline-block middle">supervisor_account</i>  Δίκλινα :
+            <span class="bold">@inquiry_double_rooms_quantities</span></div>
+        </div>
+
+        <div class="clearer">
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+<div class="image">
+  <div class="inquiry-image-transform" >
+    <div class="inquiry-image-shape text-left">
+        @inquiry_image
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+
+<div class="summary_general summary-inquirydates   white-bg">
+
+
+<h4 class="grey"><i class="material-icons blue inline-block middle">date_range</i>Το Αιτημα θα παραμείνει Ανοικτό</h4>
+<div class="clearer">
+
+</div>
+  <div class="col-xs-6 white2-bg ">
+      <div class=" inquiry-from inline-block blue summary-price"> Απο <br/>
+
+    <span class="bold"> @inquiry_start_date  </span></div>
+  </div>
+  <div class="col-xs-6  white2-bg ">
+    <div class=" inquiry-to inline-block blue  summary-price"> Έως <br/>
+
+    <span class="bold">@inquiry_end_date</span></div>
+  </div>
+  <div class="clearer">
+  </div>
+
+</div>
+
+
+</div>
+
+</div>

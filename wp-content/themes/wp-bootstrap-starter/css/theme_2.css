@@ -1,0 +1,362 @@
+
+
+
+.blue
+{
+  color:#009bd6;/* #009bd6;*/
+}
+
+.blue-bg
+{
+  background-color:#009bd6 ;/*#258289 ; /*25252d;*/
+}
+
+.blue2
+{
+  color:#009bd6;
+}
+
+.blue2-bg
+
+{
+
+  background-color:#009bd6;
+
+}
+
+
+
+
+.blue3
+{
+  color:#009bd6;
+}
+
+
+
+.blue3-bg
+{
+  background-color:#009bd6;
+}
+
+
+
+
+.blue4
+{
+  color:#009bd6;
+}
+
+.blue4-bg
+{
+  background-color:#009bd6;
+}
+
+.blue5
+{
+  color:#009bd6;
+}
+
+.blue5-bg
+{
+  background-color:#009bd6;
+}
+
+.blue6
+{
+  color:#009bd6;
+}
+
+.blue6-bg
+{
+  background-color:#009bd6;
+}
+
+
+
+.aqua
+{
+  color:#66e991 /*#66e991;*/
+}
+
+.aqua-bg
+{
+  background-color:#66e991;
+}
+
+.yellow
+{
+  color:#f6d818;
+}
+
+.yellow-bg
+{
+    background-color:#f6d818;
+}
+
+
+.orange
+{
+  color:#f67e18;
+}
+
+.orange-bg
+{
+    background-color:#f67e18;
+}
+
+
+
+.green
+{
+  color:#16c05a;
+}
+
+.green-bg
+{
+    background-color:#16c05a;
+}
+
+.red
+{
+  color:#e14c4c;
+}
+
+.red-bg
+{
+  background-color:#e14c4c;
+}
+
+.options-dot-shape.white-bg
+{
+  background-color:#009bd6;
+}
+
+
+.completed .application-status
+{
+    background-color:#16c05a;
+}
+
+.completed
+{
+
+  color:#16c05a;
+}
+
+.material-icons.md-dark.aqua {
+    color: #66e991;
+}
+
+
+.login-form input[type=submit]:hover
+{
+  background-color: #66e991;
+  border:none;
+}
+
+.single-chat-box-transform.buyer  .chat-box-name
+{
+  color:#66e991 ;
+}
+
+#interesting_offers .favorite_icon
+{
+  color:#f6d818;
+}
+
+.single-chat-box-transform.seller  .chat-box-name
+{
+  color:#4deb90 ;
+}
+
+.denied
+{
+  background-color:#66e991;
+}
+
+.open_application_list_main-shape
+{
+  border-top: solid 3px;
+}
+
+.all-offers-list
+{
+    border-top: solid 3px #16c05a;
+}
+
+.best_offer .open_application_list_main-shape
+{
+  border-top: solid 3px #009bd6 ;
+}
+
+
+.interesting_offers .open_application_list_main-shape
+{
+  border-top: solid 3px #f6d818;
+}
+
+.single_open_application-transform.completed
+{
+/*  border-top:solid 6px #f6d818;*/
+}
+
+.inquiry_succeeded .single_open_application-transform.completed {
+    border-top: solid 6px #009bd6;
+}
+
+.single_open_application-transform.incomplete
+{
+  border-top:solid 6px #e14c4c;
+}
+
+.open .single-selection-list-transform:hover
+{
+  background: #f8f8f8;
+}
+
+.open .single-selection-list-transform.selected
+{
+
+  background: #009bd6;
+
+}
+
+.seller-top
+{
+  padding: 10px 0px 10px 0px;
+  border-top:solid 6px;
+}
+.action_button_shape{
+background-color: #009bd6 !important;
+}
+
+.action_button_shape.aqua-bg
+{
+  background-color: #009bd6;
+}
+
+
+.action_button_shape:hover{
+  background-color: #555 !important;
+}
+
+
+.active .number-shape
+{
+  background-color: #16c05a;
+  color:#fff;
+  border-color: #16c05a;
+}
+
+.parentCat_1718 .single-searchbox-transform.products_active{
+
+  border-bottom:solid 2px #16c05a;
+
+}
+
+.parentCat_1718 .single-searchbox-transform.products_active a{
+
+  color:#16c05a;
+
+}
+
+
+.parentCat_1719 .single-searchbox-transform.hotels_active{
+  border-bottom:solid 2px #16c05a;
+}
+.parentCat_1719 .single-searchbox-transform.hotels_active a{
+  color:#16c05a;
+}
+
+.parentCat_376 .single-searchbox-transform.services_active{
+
+  border-bottom:solid 2px #16c05a;
+
+}
+
+.parentCat_376 .single-searchbox-transform.services_active a{
+
+  color:#16c05a;
+
+}
+
+
+
+.active .single-selection-list-shape
+{
+  color:#f1f1f1;
+  font-weight: bold;
+}
+
+.seller-rating.active
+{
+  background-color: #f6d818;
+}
+
+.seller-rating-shape
+{
+  height:0px;
+}
+
+.statistic_title-shape
+{
+  border-bottom: solid 1px #dbd6cc;
+}
+
+.statistic_data_left-col
+{
+
+  border-right:solid 1px #dbd6cc;
+}
+
+.single-subcategory-shape:hover{
+  background-color:#009bd6;
+}
+
+.single-subcategory-shape:hover .checkbox-shape , .single-subcategory-shape:hover .category-name
+{
+  color:#fff;
+}
+
+
+.options-box-shape.blue-bg{
+      /*background-color: #474747;*/
+}
+
+
+.pending .single_open_application-transform {
+    border-top: solid 6px #f6d818;
+}
+.single_open_application-transform
+{
+  border-top: solid 6px #343434;
+}
+
+
+.single_open_appliacation-col:hover .appl-title.grey2
+{
+  color:#009bd6;
+}
+#application_summary .blue-bg .white, #application_summary .aqua-bg .white
+{
+color:#009bd6;
+
+}
+
+.places_container {
+
+  color:#0b0016;
+
+}
+
+.summary-subtitle {
+
+  color:#0b0016;
+
+}
+
+.offer-pagination a:hover
+{
+  color: #009bd6 !important;
+}
